@@ -8,7 +8,7 @@
       srcset="https://github-stats-extended.vercel.app/api?username=Auric-Coder&theme=dark_github"
       media="(prefers-color-scheme: dark)"
     />
-    <img src="https://github-stats-extended.vercel.app/api?username=Auric-Coder&theme=light_github" />
+    <img src="https://github-stats-extended.vercel.app/api?username=Chirrenthen &theme=light_github" />
   </picture>
 </a>
 </div>
@@ -29,7 +29,7 @@ GitHub-Stats-Extended is the [extended, actively maintained successor](https://g
 Copy and paste this into your markdown, then change the `?username=` value to your GitHub username:
 
 ```md
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=anuraghazra)](https://github.com/stats-organization/github-stats-extended)
+[![Chirrey's GitHub stats](https://github-stats-extended.vercel.app/api?username=Chirrenthen)](https://github.com/stats-organization/github-stats-extended)
 ```
 
 As a more comfortable alternative, use the [card wizard](https://github-stats-extended.vercel.app/frontend) to configure your card visually. Then copy the generated markdown into your [GitHub profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme#adding-a-profile-readme).
