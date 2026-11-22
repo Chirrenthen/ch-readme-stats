@@ -6,5 +6,35 @@
       "source": "/",
       "destination": "/frontend/docs/"
     }
+  ]{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd ../../ && git clean ./apps -fx && pnpm run build:packages && pnpm --filter ./apps/backend/ build && ./vercel-preparation.sh",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/frontend/docs/"
+    }{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd ../../ && git clean ./apps -fx && pnpm run build:packages && pnpm --filter ./apps/backend/ build && ./vercel-preparation.sh",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/frontend/docs/"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    }
   ]
+}
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    }
+  ]
+}
 }
